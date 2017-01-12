@@ -54,3 +54,16 @@
 .bottom50 {
 	margin-bottom: 50px;
 }
+
+.aboutBack {
+	background-image: url(images/top_back1.jpg);
+	background-size: cover;
+}
+
+.textShadow1 {
+	text-shadow: 1px 1px 1px hsla(0,0%,0%,0.64);
+}
+
+.text-white {
+	color: hsla(0,0%,100%,1.00);
+}

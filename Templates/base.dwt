@@ -131,7 +131,7 @@
               <p>左手に水瓶を持っておられるのが特徴です。水瓶の中に汚れを清める水が入っておりどんなに使ってもなくならないとされています。</p>
               <h4 class="h5">ご利益：除災免罪</h4>
               <hr>
-              <p class="text-center"><a href="#" class="btn btn-success" role="button">更に詳しく</a></p>
+              <p class="text-center"><a href="../kannon/sei_kannon.html" class="btn btn-success" role="button">更に詳しく</a></p>
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@
               <h3>千手観音</h3>
               <p>周囲に四十本の手を持っておられます。手には羂索（けんさく）という獣を捕らえる縄などを持っておられます。この手によって、どんな境遇の人でも救ってくださるのです。</p>
               <hr>
-              <p class="text-center"><a href="#" class="btn btn-info" role="button">更に詳しく</a></p>
+              <p class="text-center"><a href="../kannon/senjyu_kannon.html" class="btn btn-info" role="button">更に詳しく</a></p>
             </div>
           </div>
         </div>
@@ -151,7 +151,7 @@
               <h3>十一面観音</h3>
               <p>十一の顔を持っておられるのが特徴です。正面の三面は人々を優しく見守り、右側の三面は人々の悪い心を懲らしめ、人に働きかけて善行を進められる顔です。背後の一面は悪を威圧するお顔です。そして頭頂のお顔が人々がよりよく生きていくように仏が働きかけているお顔です。</p>
               <hr>
-              <p class="text-center"><a href="#" class="btn btn-success" role="button">更に詳しく</a></p>
+              <p class="text-center"><a href="../kannon/jyuuichimen_kannon.html" class="btn btn-success" role="button">更に詳しく</a></p>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@
               <h3>如意輪観音</h3>
               <p>如意宝珠と法輪を持っておられるのが特徴です。如意宝珠は人々の願いを意のままに叶える珠、法輪は仏の教えを広めて恵みと福徳をもたらす法具です。</p>
               <hr>
-              <p class="text-center"><a href="#" class="btn btn-info" role="button">更に詳しく</a></p>
+              <p class="text-center"><a href="../kannon/nyoirin_kannon.html" class="btn btn-info" role="button">更に詳しく</a></p>
             </div>
           </div>
         </div>
@@ -173,7 +173,7 @@
               <h3>准胝観音</h3>
               <p>顔が一つで顔に第三の仏の眼があり、十八本の腕を持っておられます。清らかで穏やかな表情で母性を象徴する菩薩でおられます。</p>
               <hr>
-              <p class="text-center"><a href="#" class="btn btn-primary btn-success" role="button">更に詳しく</a></p>
+              <p class="text-center"><a href="../kannon/jyuntei_kannon.html" class="btn btn-primary btn-success" role="button">更に詳しく</a></p>
             </div>
           </div>
         </div>
@@ -183,7 +183,7 @@
               <h3>馬頭観音</h3>
               <p>激しい怒りの憤怒相、髪を逆立て目を怒らせた姿であられます。腕前の手は合掌して人々の幸せを願われています。馬が牧草を食べつくすように、衆生の煩悩をすべて断じる功徳ある菩薩であられます。</p>
               <hr>
-              <p class="text-center"><a href="#" class="btn btn-info" role="button">更に詳しく</a></p>
+              <p class="text-center"><a href="../kannon/batou_kannon.html" class="btn btn-info" role="button">更に詳しく</a></p>
             </div>
           </div>
         </div>
@@ -196,14 +196,10 @@
       <div class="well">
 				<h3 class="text-center h4"><b>募金・ご寄付のお願い</b></h3>
         <div class="row">
-        	<div class="col-lg-12">
-       		<img src="../images/kumamoto.png" class="img-responsive retina" alt="熊本地震募金のお願い"> </div>
-        	<div class="col-lg-12 top10">
-       		<img src="../images/higashinihon.png" class="img-responsive retina" alt="東日本大震災募金のお願い"> </div>
-        	<div class="col-lg-12 top10">
-       		<img src="../images/akiya.png" class="img-responsive retina" alt="空き家ご寄付のご案内"> </div>
-        	<div class="col-lg-12 top10">
-       		<img src="../images/ohenro.png" class="img-responsive retina" alt="お遍路会館へのご寄付について"> </div>
+        	<div class="col-lg-12"> <a href="../gienkin/kumamoto.html"><img src="../images/kumamoto.png" class="img-responsive retina" alt="熊本地震募金のお願い"></a> </div>
+        	<div class="col-lg-12 top10"> <a href="../gienkin/higashi_nihon.html"><img src="../images/higashinihon.png" class="img-responsive retina" alt="東日本大震災募金のお願い"></a> </div>
+        	<div class="col-lg-12 top10"> <a href="../gokifu/akiya.html"><img src="../images/akiya.png" class="img-responsive retina" alt="空き家ご寄付のご案内"></a> </div>
+        	<div class="col-lg-12 top10"> <a href="../gokifu/kaikan.html"><img src="../images/ohenro.png" class="img-responsive retina" alt="お遍路会館へのご寄付について"></a> </div>
        	</div>
       </div>
       <hr>
@@ -294,17 +290,17 @@
         </ul>
         <div id="myTabContent1" class="tab-content">
           <div class="tab-pane fade in active" id="home1">
-            <p class="text-center"><img src="../images/soushiki.png" alt="お葬式" class="img-responsive retina"></p>
+            <p class="text-center"><a href="../butsuji/osoushiki.html"><img src="../images/soushiki.png" alt="お葬式" class="img-responsive retina"></a></p>
             <p>通夜式、告別式での読経を差し上げ、戒名授与までを承っています。提携の葬祭会社との連携でお葬式全般を取り仕切りますので安心してご用命ください。観音御光之会ではお通夜、告別式から初七日までを葬祭と捉え、故人の旅たちをお手伝いしています。</p>
           </div>
           <div class="tab-pane fade" id="pane2">
-            <p class="text-center"><img src="../images/houyou.png" alt="法要" class="img-responsive retina"></p>
+            <p class="text-center"><a href="../butsuji/houyou.html"><img src="../images/houyou.png" alt="法要" class="img-responsive retina"></a></p>
             <p>法要とは、遺族が故人を偲び冥福を祈るために行う「追善供養」のことを指します。
 法要は一般に「法事」と呼ばれていますが、厳密にはお経をあげてもらう追善供養を「法要」と呼び、追善供養の後席の会食まで含むものを「法事」と呼びます。
 法要は、遺族が故人の冥福（冥土の幸福）を祈るために行うものです。法要を営むことによって故人は極楽浄土に往生できるとされているので、故人を供養するためには必ず必要な儀式です。ただし、浄土真宗ではご臨終と同時に極楽往生すると考えるので、中陰の法要の意味は故人を偲び、仏法に接するためのものと考えます。</p>
           </div>
           <div class="tab-pane fade" id="pane3">
-            <p class="text-center"><img src="../images/kuyou.png" alt="ご供養" class="img-responsive retina"></p>
+            <p class="text-center"><a href="../butsuji/kuyou.html"><img src="../images/kuyou.png" alt="ご供養" class="img-responsive retina"></a></p>
             <p>お葬式の永代供養は、お寺がご遺族の代わりに故人様のご遺骨を管理し、永年に渡りご供養いたします。
 納骨先の寺院にてご遺骨をお預かりした後、共同墓に2年間個別安置し、お盆やお彼岸など年1回合同でお経を唱える供養をいたします。</p>
           </div>
@@ -334,7 +330,7 @@
 私たち観音御光之会の目的は、すべての人類が現世この時において即、幸福になること、幸福をつかむことです。
 御本尊を観音菩薩とし、念々勿生疑、南無観世音菩薩、疑いを持たず、一心に観音様にすべてを委ねること。
 さすれば必ず観音菩薩は我々を救済してくださる。 </div>
-      <div class="media-right"><img src="../images/ico_kannon.png" alt="観音様" width="75" height="75" class="media-object"></a></div>
+      <div class="media-right"><img src="../images/ico_kannon.png" alt="観音様" width="75" height="75" class="media-object"></div>
 </div>
 <!--<div class="media">
   <div class="media-body">

@@ -84,6 +84,10 @@
 	background-image: url(images/kaikan_top.jpg);
 	background-size: cover;
 }
+.kannon_sui_back {
+	background-image: url(images/fuji_kannon_sui_top.jpg);
+	background-size: cover;
+}
 .houyouBack {
 	background-image: url(images/houyou_top.jpg);
 	background-size: cover;

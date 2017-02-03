@@ -157,6 +157,14 @@
 	bottom: 22%;
 }
 
+.kansyaRead {
+	color: hsla(0,0%,32%,1.00);
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 12px;
+	line-height: 1.4em;
+	text-align: left;
+}
+
 @media (max-width:375px){
 
 .sm-non {

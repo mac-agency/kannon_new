@@ -187,6 +187,15 @@
 	line-height: 1.6em;
 }
 
+.text-effect1 {
+	color: hsla(52,100%,36%,1.00);
+	text-shadow: 3px 3px 3px hsla(0,0%,100%,1.00);
+}
+
+.text-effect2 {
+	text-shadow: 2px 2px 3px hsla(0,0%,0%,1.00);
+}
+
 @media (max-width:375px){
 
 .sm-non {

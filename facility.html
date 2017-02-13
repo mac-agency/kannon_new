@@ -18,7 +18,66 @@
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">
 <link href="customize.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="js/retina.js"></script>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png" />
+
+<style type="text/css">
+/* page-top */
+#page-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 77%;
+	z-index: 1000;
+}
+#page-top a {
+	background: #666;
+	text-decoration: none;
+	color: #fff;
+	width: 100px;
+	padding: 30px 0;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#page-top a:hover {
+	text-decoration: none;
+	background: #999;
+}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	var topBtn = $('#page-top');	
+	topBtn.hide();
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			topBtn.fadeIn();
+		} else {
+			topBtn.fadeOut();
+		}
+	});
+	//スクロールしてトップ
+    topBtn.click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);
+		return false;
+    });
+});
+</script>
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -29,7 +88,7 @@
 <!-- InstanceEndEditable -->
 </head>
 <body>
-
+<p id="page-top"><a href="#wrap">PAGE TOP</a></p>
 <nav class="navbar navbar-inverse navbar-fixed-top navColor1 navBordertop">
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -240,7 +299,7 @@
        				</div>
         			<div class="panel panel-default">
         				<div class="panel-heading">
-        					<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">観音様感謝舞踏会</a></h4>
+        					<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">観音様感謝舞踊会</a></h4>
        					</div>
         				<div id="collapseThree1" class="panel-collapse collapse">
         					<div class="panel-body">空也上人は京都市中で布教のため鉢を叩きながら「南無阿弥陀仏」を称えました。「鉢たたき念仏」を行ったのです。これをもとに時宗の一遍は踊りを主体とする念仏踊りを行い、諸国遊行で布教しました。これが後に盆踊りとなるのです。
@@ -300,7 +359,7 @@
       </span>
 	<h3>観音御光之会<span class="h5">（かんのんみひかりのかい）</span></h3>
   <hr>
-  <p>平成18年9月世の乱れを嘆き、日本の繁栄を願い行雄観導師によって東京都中央区に設立。布教を開始。平成22年7月香川県坂出市に礼拝所道場を開設。
+  <p>平成18年9月世の乱れを嘆き、日本の繁栄を願い柴垣行雄観導師によって東京都中央区に設立。布教を開始。平成22年7月香川県坂出市に礼拝所道場を開設。
 平成28年9月15日文部科学大臣より認証。宗教法人となる。</p>
 
 </div>
@@ -317,6 +376,7 @@
      <p><a href="contact.html">　お問合せ</a></p>
      <p><a href="site_map.html">　サイトマップ</a></p>
      <p><a href="privacy_policy.html">　プライバイシーポリシー</a></p>
+     <p><a href="tokusyouhou.html">　特定商取引法に基づく表記</a></p>
       </div>
       <div class="media-right"><img src="images/ico_kannon.png" alt="観音様" width="75" height="75" class="media-object"></div>
 </div>
@@ -332,17 +392,23 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, iure nemo earum 
   <h3>所在地</h3>
   <hr>
 
-    <address>
+    <address class="addressText1">
       <strong>観音御光之会</strong><br>
       〒104-0043　東京都中央区湊3-10-7<br>
       TEL.03-5541-7226<br>
-  
       </address>
 
-      <address>
-        <strong>礼拝所</strong><br>
+      <address class="addressText1">
+        <strong>お遍路会館</strong><br>
         〒762-0012　香川県坂出市林田町3436-2<br>
       TEL.0877-59-5556<br>
+        <!--<a href="mailto:#">first.last@example.com</a>-->
+      </address>
+      
+      <address class="addressText1">
+        <strong>静岡教区</strong><br>
+        〒416-0915　静岡県静岡市富士町15番4号<br>
+      TEL.0545-63-5100<br>
         <!--<a href="mailto:#">first.last@example.com</a>-->
       </address>
 </div>
@@ -361,5 +427,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, iure nemo earum 
 <script src="js/jquery-1.11.3.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/retina.js"></script>
 </body>
 <!-- InstanceEnd --></html>

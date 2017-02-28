@@ -1,2 +1,5 @@
-User-Agent: *
-Disallow: /
+# 全クローラーを対象
+
+User-agent: *
+
+Allow: /policy

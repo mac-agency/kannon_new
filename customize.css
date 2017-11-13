@@ -240,6 +240,16 @@
   height: 100% !important;
 }
 
+.gokyouryoku {
+  color: #FFFFFF;
+  font-size: 28px;
+  text-align: center;
+  background-color: #5A46B4;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 
 @media (max-width:375px){
@@ -293,4 +303,52 @@
 	font-size: 39px;
 	color: hsla(52,100%,36%,1.00);
 }
+}
+
+@media (max-width:320px){
+
+.gokyouryoku {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  background-color: #5A46B4;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+}
+
+@media (min-width:321px) and (max-width:375px){
+
+.gokyouryoku {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  background-color: #5A46B4;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+}
+
+@media (min-width:376px) and (max-width:414px){
+
+.gokyouryoku {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  background-color: #5A46B4;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+}
+
+@media (min-width:415px) and (max-width:736px){
+}
+
+@media (min-width:737px) and (max-width:768px){
+}
+
+@media (min-width:769px) and (max-width:1024px){
 }
